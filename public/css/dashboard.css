@@ -1,0 +1,220 @@
+.wrapper-content .page-heading {
+    background: #363d4a;
+}
+
+.ibox-content,
+.ibox-title {
+    background: #363d4a;
+}
+
+#run_courses_block .ibox-title {
+    border-radius: 5px 5px 0px 0px;
+}
+
+#run_courses_block .ibox-content {
+    border-radius: 0px 0px 5px 5px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+    background-image: url(../admin/drop-down.svg);
+    border: 0px !important;
+    width: 11px;
+    height: 7px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 10px;
+    left: unset;
+}
+
+.ibox-title {
+    border: none;
+}
+
+.ibox-content {}
+
+.course-duration {
+    margin-top: 30px;
+}
+
+.course-duration li {
+    display: inline-block;
+}
+
+.pannel-bonus-list {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.duration_text {
+    color: #fff;
+}
+
+.dataTables_length select {
+    margin: 0px 10px;
+    width: auto !important;
+    background: #4A4D5B;
+}
+
+.breadcrumb-m {
+    background: #363d4a;
+    border-radius: 5px;
+    min-height: 57px;
+}
+
+.bonus-template {
+    color: #fff;
+    padding: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.ibox-tools {
+    text-align: left;
+}
+
+
+/* .bonus-template :nth-child(even) {
+    background: #353A48
+} */
+
+.bonus-template:nth-child(even) {
+    background: #353A48
+}
+
+.list-group-item {
+    padding: 10px 20px;
+}
+
+.buy_course .course-container .blocks-m {
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.buy_course .breadcrumb-m h2 {
+    font-family: 'Oswald 500', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: auto;
+    margin-top: 15px;
+}
+
+.buy_course .breadcrumb-m .date {
+    margin-top: 5px;
+}
+
+.buy_course .breadcrumb-m .left-block {
+    display: flex;
+}
+
+.buy_course .breadcrumb-m .course-duration {
+    margin-top: 20px;
+}
+
+.buy_course .breadcrumb-m .course-duration li {
+    margin-left: 20px;
+}
+
+.buy_course #directions_id {
+    margin-top: -6px;
+}
+
+.buy_course h5 {
+    font-family: 'Oswald 500', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.ibox-content {
+    border-color: #404352;
+}
+
+.course-duration li a.links {
+    font-size: 12px;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    color: #afb2b5;
+}
+
+.course-duration li a.active {
+    color: #F37335;
+}
+
+.chart-panel .ibox-content,
+.chart-panel .ibox-title {
+    background: #363d4a;
+}
+
+.admin-dashboard .wrapper-content {
+    padding: 20px 0px;
+}
+
+
+/* google chart */
+
+.google-charts {}
+
+.label-location {
+    width: 4px;
+    height: 16px;
+    background: #F37335;
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+.city-name {
+    position: relative;
+    top: -4px;
+    font-family: 'Oswald 400', sans-serif;
+}
+
+.google-charts .ibox-content {
+    min-height: 420px;
+    max-height: 420px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.google-charts .ibox-content.clearfix {
+    overflow-y: scroll;
+}
+
+.google-charts .ibox-title {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.google-charts .average-time {
+    height: 50%;
+}
+
+.google-charts .flot-chart {
+    height: 380px;
+}
+
+.google-charts .average-time .ibox-content {
+    min-height: 110px;
+}
+
+.google-charts .average-time .flot-chart {
+    height: 95px;
+}
+
+.google-charts .average-time .ibox-title {
+    /* padding: 5px 5px 5px 10px; */
+}
+
+.google-charts .flot-chart-pie-content {
+    width: 160px;
+    height: 160px;
+    margin-top: 30px;
+}
+
+.flot-chart-text .list-group {
+    margin-top: 30px;
+}
+
+.flot-chart-text .list-group .list-group-item {
+    border: 0px;
+}

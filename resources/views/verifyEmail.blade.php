@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Письмо</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Verdana, sans-serif;
+        }
+
+        .wrapper {
+            width: 600px;
+            text-align: center;
+        }
+
+        .header {
+            background-color: #2B2F3F;
+            padding: 15px 20px;
+        }
+
+        .header_left {
+            width: 100%;
+            text-align: left;
+        }
+
+        .header_link {
+            padding-left: 27px;
+        }
+
+        .header_a {
+            transition: opacity .2s;
+        }
+
+        .header_a:hover {
+            opacity: .5;
+        }
+
+        .footer {
+            padding: 20px;
+            background-color: #404352;
+        }
+
+        .footer_txt {
+            /*font-family: Rubik */
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #B3B4BA !important;
+            text-decoration: none;
+        }
+
+        .footer_a {
+            transition: color .2s;
+        }
+
+        .footer_a:hover {
+            color: #fff !important;
+        }
+
+        .button {
+            background-color: #F37335;
+            background: linear-gradient(348.89deg, #FDC830 0%, #F37335 100%);
+            border-radius: 5px;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 26px;
+            color: #FFFFFF !important;
+            padding: 17px 10px;
+            display: inline-block;
+            min-width: 270px;
+            box-shadow: 0px -5px 30px rgba(253, 200, 48, 0.749);
+            transition: color .3s;
+        }
+
+        .button:hover {
+            color: #ddd !important;
+        }
+
+        .table {
+            text-align: left;
+            width: 100%;
+            font-family: Arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #FFFFFF;
+            border-collapse: collapse;
+            padding: 15px 20px;
+        }
+
+        .table_tr {
+            background-color: #404452;
+            border-bottom: 10px solid #2B2F3F;
+        }
+
+        .table_td-l {
+            padding: 15px 20px;
+            color: #B3B4BA;
+        }
+
+        .table_td-r {
+            padding: 15px 20px 15px 0;
+        }
+
+        .content_bottom-container {
+            padding-top: 40px;
+        }
+
+        .content-bg {
+            padding: 30px 0;
+            background-color: #131729;
+            background: url("http://ajica.beget.tech/img/bg.png") #131729 !important;
+        }
+
+        .content {
+            background-color: #2B2F3F;
+            padding: 40px;
+        }
+
+        .content_pb0 {
+            padding-bottom: 0;
+        }
+
+        .content_header {
+            font-family: Tahoma;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 45px;
+            color: #FFFFFF;
+            padding-bottom: 40px;
+        }
+
+        .content_header__first {
+            font-size: 24px;
+            line-height: 40px;
+            padding-bottom: 30px;
+        }
+
+        .content_header__pb60 {
+            padding-bottom: 60px;
+        }
+
+        .content_bottom {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 17px;
+            line-height: 38px;
+            color: #FFFFFF;
+        }
+
+        .content_p1 {
+            font-family: Arial;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 19px;
+            line-height: 29px;
+            color: #AAACB2;
+            padding-bottom: 40px;
+        }
+
+        .content_p1__pb30 {
+            padding-bottom: 30px;
+        }
+
+        .content_p1__pb0 {
+            padding-bottom: 0;
+        }
+
+        .content_p1__italic {
+            font-style: italic;
+            color: #fff;
+        }
+
+        .content_span__bold {
+            font-weight: bold;
+        }
+
+        .content_span__gold {
+            color: #FDC830;
+        }
+
+        .content_span__red {
+            color: #FF4B55;
+        }
+
+        .content_span__green {
+            color: #16A085;
+        }
+
+        .content_span__orange {
+            color: #F37335;
+        }
+
+        .content_a {
+            color: #F37335;
+            font-weight: bold;
+        }
+
+        .content_a__db {
+            display: block;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body style="margin: 0;font-family: Verdana, sans-serif;">
+    <div class="wrapper" style="width: 600px;text-align: center;">
+        <div class="header" style="background-color: #2B2F3F;padding: 15px 20px;">
+            <table>
+                <tr>
+                   
+                </tr>
+            </table>
+        </div>
+        <div class="content-bg" style="padding: 30px 0;background-color: #131729;background: url(http://ajica.beget.tech/img/bg.png) #131729 !important;">
+            <div class="content" style="background-color: #2B2F3F;padding: 40px;">
+                <div class="content_header content_header__first" style="font-family: Tahoma;font-style: normal;font-weight: normal;font-size: 24px;line-height: 40px;color: #FFFFFF;padding-bottom: 30px;">Здравствуйте, Суханов Валентин Борисович</div>
+                <div class="content_p1 content_p1__pb30" style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 19px;line-height: 29px;color: #AAACB2;padding-bottom: 30px;">Вы получили это сообщение, так как ваш адрес был использован при регистрации нового пользователя на сайте MindFormula.</div>
+                <div class="content_p1" style="font-family: Arial;font-style: normal;font-weight: normal;font-size: 19px;line-height: 29px;color: #AAACB2;padding-bottom: 40px;">Для подтверждения регистрации необходимо перейти по ссылке:</div>
+                <a class="button" href="{{ route('verify',$user->email_verification_token) }}" style="background-color: #F37335;background: linear-gradient(348.89deg, #FDC830 0%, #F37335 100%);border-radius: 5px;text-decoration: none;font-family: sans-serif;font-style: normal;font-weight: normal;font-size: 17px;line-height: 26px;padding: 17px 10px;display: inline-block;min-width: 270px;box-shadow: 0px -5px 30px rgba(253, 200, 48, 0.749);transition: color .3s;color: #FFFFFF !important;">Подтвердить регистрацию</a>
+                <div class="content_bottom-container" style="padding-top: 40px;">
+                    <div class="content_bottom" style="font-style: normal;font-weight: normal;font-size: 17px;line-height: 38px;color: #FFFFFF;">С уважением,</div>
+                    <div class="content_bottom" style="font-style: normal;font-weight: normal;font-size: 17px;line-height: 38px;color: #FFFFFF;">Команда GOGOCAR</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" style="padding: 20px;background-color: #404352;"><span class="footer_txt" style="font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;text-decoration: none;color: #B3B4BA !important;">2020 ©</span><a class="footer_txt footer_a" href="https://gogocar.itmigdex.ru/" style="font-style: normal;font-weight: normal;font-size: 14px;line-height: 17px;text-decoration: none;transition: color .2s;color: #B3B4BA !important;">gogocar.itmigdex.ru</a></div>
+    </div>
+</body>
+</html>

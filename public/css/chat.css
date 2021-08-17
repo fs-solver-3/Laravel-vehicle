@@ -1,0 +1,480 @@
+.emoji-picker-container {
+    position: static;
+    display: inline-block;
+    right: 20px;
+}
+
+.emoji-invoker {
+    position: relative;
+    /* top: -9px;
+    right: 90px; */
+    height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all 0.2s;
+    margin-top: -3px;
+}
+
+.emoji-invoker:hover {
+    transform: scale(1.1);
+}
+
+.emoji-invoker>svg {
+    fill: #b1c6d0;
+}
+
+.emoji-picker {
+    position: absolute;
+    left: 0px !important;
+    top: -20rem !important;
+    z-index: 100000;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 20rem;
+    overflow: scroll;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 1px 1px 8px #c7dbe6;
+}
+
+.emoji-picker__search {
+    display: flex;
+}
+
+.accordion>.card {
+    overflow: visible;
+}
+
+.emoji-picker__search>input {
+    flex: 1;
+    border-radius: 10rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    outline: none;
+}
+
+.emoji-picker h5 {
+    margin-bottom: 0;
+    color: #b1b1b1;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    cursor: default;
+}
+
+.emoji-picker .emojis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.emoji-picker .emojis:after {
+    content: "";
+    flex: auto;
+}
+
+.emoji-picker .emojis span {
+    padding: 0.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.emoji-picker .emojis span:hover {
+    background: #ececec;
+    cursor: pointer;
+}
+
+.chat-container-footer--smiles:after {
+    right: 63px;
+}
+
+.chat-container-option--message--item img {
+    margin-right: 10px;
+}
+
+.chat-container--edit--message {
+    display: flex;
+}
+
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: table;
+    transition: opacity 0.3s ease;
+}
+
+.modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.modal-container {
+    width: 540px;
+    height: 214px;
+    border-radius: 15px;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #363D4A;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all 0.3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+}
+
+.modal-body {
+    margin: 20px 0;
+}
+
+.modal-default-button {
+    float: right;
+}
+
+
+/*
+ * The following styles are auto-applied to elements with
+ * transition="modal" when their visibility is toggled
+ * by Vue.js.
+ *
+ * You can easily play with the modal transition by editing
+ * these styles.
+ */
+
+.modal-enter {
+    opacity: 0;
+}
+
+.modal-leave-active {
+    opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.modal-wrapper .modal-body {
+    /* font-family: Yanone Kaffeesatz; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
+
+.modal-wrapper .modal-footer .btn-yellow {
+    width: 150px;
+    height: 41px;
+}
+
+.modal-wrapper .modal-footer .btn-black {
+    width: 150px;
+    height: 41px;
+}
+
+.modal-container .modal-footer {
+    border-top: 0px;
+}
+
+.modal-mask .modal-default-button {
+    float: right;
+}
+
+.modal-mask .modal-default-button {
+    float: right;
+}
+
+.btn-yellow {
+    background: linear-gradient(97.78deg, #F37535 0%, #FDC630 100%);
+    color: #fff;
+    font-family: 'Oswald 400', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.btn-black {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Oswald 400', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.chat-container-message--wrapper {
+    position: relative;
+    max-width: unset;
+}
+
+.icon-edited {
+    bottom: 8px;
+    position: absolute;
+    left: -40px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.message-deleted {
+    padding: 10px 10px 5px 10px;
+    background: #353A48;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 10px;
+    display: flex;
+}
+
+#chat-icon-deleted {
+    fill: #fff;
+}
+
+.message-deleted span {
+    /* margin-top: 5px; */
+    margin-left: 10px;
+}
+
+.message-item .reply-message {
+    display: flex;
+    padding: 10px 10px 15px 10px;
+    background: #4B4E5C;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: -10px;
+}
+
+#chat-icon-deleted {
+    fill: #fff;
+}
+
+.chat-container-message-out .reply-message {
+    margin-left: 25px;
+}
+
+.message-item .reply-message .reply-username {
+    color: #F37335;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 2px;
+}
+
+.message-item .reply-message .reply-content {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.chat-container-message--wrap {
+    background-color: #424854;
+}
+
+.message-file-wrapper {
+    margin-bottom: 20px;
+}
+
+.chat-container-message-in .icon-edited {
+    right: -40px;
+    left: unset;
+}
+
+.chat-container-header--option-delete__panel {
+    display: flex;
+}
+
+.chat-container-header--delete__message {
+    display: flex;
+}
+
+.chat-container-header--delete__message2 {
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    display: block;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #424b5b;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.menu-options .menu-item {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%;
+    min-height: 30px;
+    padding: 10px 20px;
+    position: relative;
+    white-space: nowrap;
+    line-height: 30px;
+}
+
+.menu-options .action-title {
+    margin-left: 15px;
+    color: #fff;
+}
+
+.chat-container-message--wrap--delete__check--wrap {
+    display: block;
+}
+
+.message-select-form input {
+    opacity: 0;
+}
+
+.message-select-form input:checked+label {
+    border: 0px;
+    background: url(/admin/message-checked.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+}
+
+.message-select-form label {
+    background: #2B2F3F;
+    opacity: 0.15;
+    border: 1px solid #FFFFFF;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+}
+
+.edited-reply-message {
+    margin-right: 51px;
+}
+
+.chat-container-option--message {
+    display: block !important;
+}
+
+
+/* fast Answers */
+
+.fast-answer-modal .modal-container {
+    width: 630px !important;
+    height: 547px;
+}
+
+.answer-title span {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.answers_lists {
+    overflow-y: scroll;
+    max-height: 370px;
+    margin-top: 20px;
+    padding: 0px 20px;
+    margin: 20px -20px;
+}
+
+.answers_list:first-child {
+    margin-top: 0px;
+}
+
+.answers_list {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .05);
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.answer-select {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    margin-left: auto;
+}
+
+.answer-select:hover {
+    color: #F37335;
+}
+
+.fast-answer-modal .modal-body h4 {
+    margin-bottom: 30px;
+}
+
+.answer-link {
+    text-align: left;
+    font-size: 13px;
+    color: #F37335;
+}
+
+.answer-link a {
+    color: #F37335;
+}
+
+.answer-des p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 18px;
+    color: #95979F;
+    text-align: left;
+    margin: 15px 0px;
+}
+
+.fast-answer-modal .modal-container {
+    background-color: #363d4a;
+}
+
+.fast-answer-modal .form-control {
+    background-color: #424b5b;
+    border-color: #424b5b;
+    color: rgba(255, 255, 255, .6);
+}
+
+.chat-container-footer--smiles {
+    position: unset;
+}
+
+.chat-container-main--info{
+    padding-bottom: 30px;
+}
+.d-shrink-not {
+    flex-shrink: 1;
+    flex-grow: 1;
+    overflow: hidden;
+}
+.chat-show-message-out {
+    right: 0% !important;
+}

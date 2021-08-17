@@ -1,0 +1,1561 @@
+.forgot_password {
+    text-align: center;
+}
+
+#forget_window p {
+    color: white;
+}
+
+.personal-sidebar--list li {
+    margin-bottom: 20px;
+}
+
+.show_ps .viaible {
+    display: none;
+}
+
+.show_ps .inviaible {
+    display: block;
+}
+
+.show_password .viaible {
+    display: block;
+}
+
+.show_password .inviaible {
+    display: none;
+}
+
+.drivers-nearby--list .panel-body {
+    width: 100%;
+    color: white;
+}
+
+.account-control--message--profile__img {
+    border-radius: 10px;
+}
+
+.popup-inputs--wrapper .error-block {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#popup-register .error-block {
+    margin-bottom: 0px;
+}
+
+#forget_message {
+    margin-bottom: 10px;
+}
+
+#forget_window .gogocar-yellow-button {
+    max-width: 270px;
+}
+
+.error-blocks {
+    margin-bottom: 10px;
+}
+
+.chat-container-main::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    outline: 1px solid #708090;
+    background-color: #fdab3e;
+    width: 8px;
+    height: 8px;
+}
+
+.chat-container-main {
+    overflow-y: scroll;
+}
+
+.chat-container-main--info {
+    overflow-y: unset;
+    max-height: unset;
+}
+
+.chat-container-main::-webkit-scrollbar-button,
+.you-trip-chat-content::-webkit-scrollbar-button {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: transparent;
+}
+
+.chat-container-main::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.personal-sidebar--item.active {
+    color: #fdab3e;
+}
+
+.personal-add--car--list #truck_body_type {
+    /* display: none; */
+}
+
+.personal-add--car--list.show #truck_body_type {
+    display: block;
+}
+
+.personal-add--car--list.show #car_body_type {
+    display: none;
+}
+
+.personal-add--car--list #cargo_type {
+    /* display: none; */
+}
+
+.personal-add--car--list.show #cargo_type {
+    display: block;
+}
+
+.upload_btn {
+    margin-top: 30px;
+}
+
+.personal-car--item--right button {
+    background: transparent;
+    border: none;
+    padding: 0px;
+}
+
+.header-user-profile {
+    display: flex;
+}
+
+.header-user-profile--img {
+    background-size: cover;
+}
+
+.notific-icons button {
+    background: transparent;
+    border: none;
+    padding: 0px;
+}
+
+#close_btn {
+    border: 0px;
+}
+
+.plan-trip--location--submit {
+    border: 0px;
+}
+
+.plan-trip-btn {
+    margin-top: 30px;
+}
+
+.toast-header {
+    background: #363d4a;
+}
+
+.toast-body {
+    background: #363d4a;
+    color: #fff;
+}
+
+.chat-content--info__driver--img {
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.chat-content--review__trip--info__img {
+    background-size: cover;
+    border-radius: 12px;
+}
+
+.gogocar-trip--item__km {
+    display: block;
+}
+
+.personal-reviews--item--wrap {
+    width: 100%;
+}
+
+
+/* .trip-map--wrap{display:none} */
+
+.table-responsive .table {
+    color: #fff;
+}
+
+.personal-file-button--added {
+    padding: 0px 20px;
+}
+
+.trip-stops--item .gogocar-gray-icons {
+    min-width: 42px;
+}
+
+.popup-gogocar-cargo--checkbox {
+    min-width: 20px;
+}
+
+.remove-price--content__icon__route {
+    align-items: center;
+}
+
+.remove-route--start {
+    max-width: 110px;
+}
+
+.remove-route--end {
+    max-width: 180px;
+}
+
+.remove-price--route {
+    margin-right: 0px;
+}
+
+#loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+.book_way {
+    padding: 0px 20px;
+}
+
+.book_way label {
+    color: #fff;
+}
+
+.toast {
+    z-index: 10000;
+}
+
+#create_reviews_user_form .form-group {
+    display: flex;
+}
+
+#create_reviews_user_form label {
+    color: #fff;
+}
+
+#create_reviews_user_form .form-control {
+    background-color: #363d4a;
+    border-color: #363d4a;
+    color: #fff;
+}
+
+.jq-ry-container {
+    line-height: 0;
+    position: relative;
+    display: block;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0 5px;
+    cursor: pointer;
+    direction: ltr
+}
+
+.datepicker-panel>ul[data-view=week]>li,
+.datepicker-panel>ul[data-view=week]>li:hover,
+.jq-ry-container[readonly=readonly] {
+    cursor: default
+}
+
+.jq-ry-container>.jq-ry-group-wrapper {
+    position: relative;
+    width: 100%
+}
+
+.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group {
+    line-height: 0;
+    position: relative;
+    z-index: 10;
+    white-space: nowrap
+}
+
+.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group>svg {
+    display: inline-block
+}
+
+.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group.jq-ry-normal-group {
+    width: 100%
+}
+
+.jq-ry-container>.jq-ry-group-wrapper>.jq-ry-group.jq-ry-rated-group {
+    position: absolute;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 0
+}
+
+@keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+
+.section-bottom-side {
+    padding: 12px 0px;
+}
+
+.section-footer-side {
+    padding: 12px 15px;
+    border-top: 1px solid rgba(153, 163, 181, .3);
+}
+
+.section-input-wrap {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    display: flex;
+}
+
+.input-main,
+.section-select--input2 {
+    border: 1px solid rgba(255, 255, 255, .1);
+    background-color: #363d4a;
+    font-family: 'Montserrat 400', sans-serif;
+    font-size: 14px;
+    width: 100%;
+    height: 47px;
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.section-input-wrap label {
+    font-family: 'Oswald 500', sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+.section-checkbox-files {
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    display: flex;
+}
+
+.section-user-flex--item {
+    margin-right: 40px;
+}
+
+.section-user-files {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 42px;
+    margin-right: 10px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: rgba(66, 75, 91, .7);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section-user-flex {
+    flex-direction: initial;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: initial;
+}
+
+.section-user-flex--item {
+    margin-right: 40px;
+    display: flex;
+}
+
+.section-user-files .icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.section-user-files--more {
+    width: 42px;
+    height: 42px;
+    background-color: #3e4756;
+}
+
+.gogocar-arrow-button .icon {
+    width: 17px;
+    height: 17px;
+}
+
+.gogocar-arrow-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .05);
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.checkbox-input {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #363d4a;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.checkbox-input--tab__item span {
+    font-family: 'Oswald 500', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.checkbox-input--tab {
+    display: none;
+}
+
+.checkbox-input--tab__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section-input-wrap:last-child {
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1199px) {
+    .section-user-flex--item {
+        margin-bottom: 20px;
+    }
+}
+
+.section-buttons--wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-button--gray,
+.section-button--yellow {
+    font-family: 'Montserrat 500', sans-serif;
+    font-size: 12px;
+    width: 100%;
+    height: 40px;
+    padding: 15px;
+    cursor: pointer;
+    -webkit-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    transition: all linear .2s;
+    color: #fff;
+    border: 0;
+    border-radius: 30px;
+    outline: 0 !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section-button--yellow {
+    background-color: #fdab3e;
+    /* padding: 20px 100px;
+        margin-top: 30px; */
+    -webkit-box-shadow: 0 0 20px rgba(253, 191, 90, .2);
+    box-shadow: 0 0 20px rgba(253, 191, 90, .2);
+}
+
+.w-100px {
+    width: 100px;
+}
+
+#pdf1,
+#pdf2,
+#pdf {
+    opacity: 0;
+    width: 0px;
+    height: 42px;
+}
+
+#label_pdf1,
+#label_pdf2,
+#label_pdf {
+    margin: 0;
+    width: 42px;
+    height: 42px;
+    padding: 11px;
+}
+
+.section-yellow-bg--wrap {
+    width: 100%;
+    margin-right: 35px;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.section-yellow-bg--content {
+    z-index: 5;
+    margin: 2.5px 5px 2.5px 0;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #fdbf5a;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+}
+
+.section-yellow-bg--content span {
+    margin-right: 15px;
+    white-space: nowrap;
+    color: #fff !important;
+}
+
+.section-yellow-bg--content__icon {
+    z-index: 10;
+    top: 50%;
+    right: -12px;
+    left: auto;
+    width: 24px;
+    height: 24px;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section-yellow-bg--content__icon svg {
+    width: 10px;
+    height: 10px;
+    fill: #fff;
+}
+
+.section-select--input2 ul {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    display: none;
+    margin: 0px 15px;
+    padding: 8px 11px;
+    border-radius: 5px;
+    background: #363d4a;
+    -webkit-box-shadow: 0 0 40px rgba(27, 33, 43, .85);
+    box-shadow: 0 0 40px rgba(27, 33, 43, .85);
+}
+
+#category_box {
+    padding: 4px 15px;
+}
+
+.chat-container-footer--smiles {
+    position: unset;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #fdbf5a;
+    border: 1px solid #fdbf5a;
+    border-radius: 4px;
+    cursor: default;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #fff;
+}
+
+.select2-results__options li {
+    color: #fff;
+}
+
+.select2-selection__choice,
+.select2-results__option {
+    color: #fff;
+}
+
+.select2-container.select2-container--default {
+    background: #363d4a;
+    min-height: 42px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, .1);
+}
+
+.select2-container.select2-container--open {
+    border: none;
+}
+
+.select2-container .select2-selection--single {
+    height: 42px !important;
+    background: #363d4a !important;
+    border-color: #363d4a !important;
+    color: #fff;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border-color: #292f39;
+    background-color: #292f39;
+    height: 42px;
+    border-radius: 15px;
+    padding: 0px 10px;
+}
+
+.select2-container--default.select2-container--focus .select2-selection--single,
+.select2-container--default.select2-container--focus .select2-selection--multiple {
+    border: none;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #3F4451;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 10px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    height: 42px !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444;
+    line-height: 42px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 42px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 20px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #AFB2B5 !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #2A2F3E;
+}
+
+.select2-search__field {
+    color: #fff;
+}
+
+.select2-dropdown {
+    background-color: #363d4a !important;
+    border: none !important;
+    padding: 13px 15px !important;
+}
+
+.select2-container--below,
+.select2-container--default {
+    margin-bottom: 10px;
+}
+
+.select2-selection {
+    height: 42px;
+}
+
+.select2-selection__choice,
+.select2-results__option {
+    color: #000;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background: #363d4a;
+    border-color: #363d4a !important;
+    display: contents;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+    border: none !important;
+}
+
+.select2-container--below {
+    border: 1px solid rgba(255, 255, 255, .1);
+}
+
+.popular-trip-slider-js .gogocar-trip--item:hover {
+    margin-top: -20px;
+}
+
+.account-control--panel__img--wrap {
+    background-size: cover;
+}
+
+.chat-container-header--delete__message2 {
+    /* height: 70px !important; */
+}
+
+.trip-gogocar--knows .trip-stops--item {
+    padding: 15px 10px;
+    background-color: #424b5b;
+}
+
+.popup-text-gogocar-tell textarea {
+    font-family: 'Montserrat 400', sans-serif;
+    font-size: 14px;
+    padding: 15px;
+    color: rgba(255, 255, 255, .5);
+    border: 0;
+    border-radius: 15px;
+    background: #424b5b;
+}
+
+.popup-text-gogocar-tell {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+}
+
+.popup-text-gogocar-tell label {
+    font-family: 'Montserrat 500', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #fff;
+}
+
+.account-control--notific--name__message:hover {
+    cursor: pointer;
+}
+
+.popup-gogocar-info {
+    opacity: 0;
+    display: none;
+}
+
+button.gogocar-red-button {
+    background-color: #ff4b55 !important;
+}
+
+#popup-input-value .popup-trip-finish {
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.gogocar-companions--item,
+.gogocar-companions--wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.gogocar-companions--item {
+    min-height: 90px;
+    max-height: 90px;
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    background: #363d4a
+}
+
+.gogocar-companions--img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+}
+
+.gogocar-companions--info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column
+}
+
+.gogocar-companions--name {
+    font-family: 'Oswald 500', sans-serif;
+    font-size: 15px;
+    margin-bottom: 8px;
+    color: #fff
+}
+
+.gogocar-companions--place {
+    font-family: 'Montserrat 400', sans-serif;
+    font-size: 13px;
+    color: rgba(255, 255, 255, .5)
+}
+
+.gogocar-companions--empty {
+    cursor: pointer;
+    border: 1.5px dashed rgba(255, 255, 255, .1);
+    background: #2f3642
+}
+
+.gogocar-companions--empty:hover {
+    background: #323c48
+}
+
+.gogocar-companions--empty__text {
+    font-family: 'Oswald 500', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, .6)
+}
+
+.you-trip-detail--wrap {
+    margin-bottom: 60px;
+}
+
+.you-trip-detail--buttons2 {
+    width: 100%;
+}
+
+.you-trip-delete-and-change {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.you-trip-delete-and-change .gogocar-gray-icons {
+    position: relative;
+    left: auto;
+    width: 42px;
+    height: 42px;
+    margin-right: 20px;
+}
+
+.change-trip-go-back--buttons .gogocar-gray-button,
+.change-trip-go-back--buttons .gogocar-yellow-button {
+    font-size: 12px;
+}
+
+
+
+.alert-success {
+    color: #fff;
+    border-color: rgba(255, 255, 255, .1);
+    background-color: #363d4a;
+}
+
+.alert-success .cloase {
+    top: -5px;
+    position: relative;
+}
+
+.personal-reviews--item {
+    padding-bottom: 30px;
+}
+
+.when-trip-date--option {
+    width: 340px;
+}
+
+#number-valid {
+    position: absolute;
+}
+
+.settings-filter-column .modal-dialog {
+    max-width: 850px !important;
+    font-size: 14px;
+}
+
+.settings-filter-column .modal-header .pull-right,
+.settings-column .modal-header .pull-right {
+    width: 260px;
+}
+
+.modal.show .modal-dialog {
+    color: #fff;
+}
+
+.modal-header:before,
+.modal-header:after {
+    display: table;
+    content: " ";
+}
+
+.settings-filter-column .modal-header,
+.settings-column .modal-header {
+    display: block;
+    padding-top: 0px;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.settings-filter-column .modal-header {
+    border-bottom: 1px solid rgba(153, 163, 181, .3) !important;
+}
+
+.settings-filter-column .modal-footer {
+    border-top: 1px solid rgba(153, 163, 181, .3) !important;
+}
+
+.checkbox-block {
+    border-radius: 5px;
+    background: #3F4351;
+    padding: 10px;
+}
+
+.checkbox-label {
+    margin-left: 10px;
+}
+
+.settings-filter-column input[type="checkbox"]:checked+label:before {
+    background: #525462;
+    color: #fff;
+    content: url(/admin/check.svg);
+    text-align: center;
+    margin-right: 10px;
+}
+
+.checkbox-block-container {
+    padding: 0px 5px;
+    margin-top: 17px;
+}
+
+.modal-dialog input[type="checkbox"] {
+    visibility: hidden;
+    display: none;
+}
+
+.settings-filter-column .modal-body {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.settings-filter-column input[type="checkbox"]+label:before {
+    border: 1px solid #525462;
+    content: "\00a0";
+    display: inline-block;
+    font: 16px/1em sans-serif;
+    height: 28px;
+    margin: 0 .25em 0 0;
+    vertical-align: top;
+    width: 28px;
+    border-radius: 3px;
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.popular-trip-slider-js .slick-current {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 991px) {
+    .personal-pay--data--mobile .personal-pay--header--childen__item {
+        min-height: 100px;
+        max-height: 100px;
+    }
+
+    .personal-save--item__rihgt .submit-yellow-icon {
+        position: absolute;
+        top: 24px;
+        right: 15px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .personal-save--item__rihgt .submit-yellow-icon .icon {
+        width: 12px;
+        height: 12px;
+    }
+
+    .submit-yellow-icon {
+        min-width: 21px;
+    }
+
+    .chat-content--warning {
+        margin-top: 30px;
+    }
+}
+
+.personal-type-car--item-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 47px;
+    margin-bottom: 20px;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #363d4a;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.personal-type-car--item-2.active .personal-type-car--item__checkbox {
+    background-color: #09b983;
+}
+
+.gogocar-trip--item__town .from_position,
+.gogocar-trip--item__town .to_position {
+    padding: 0px 10px;
+    max-width: 150px;
+    word-break: break-all;
+}
+
+.booking-item .personal-review--change--buttons {
+    min-width: 320px;
+}
+
+.booking-item .personal-review--change--buttons button {
+    border: 0px;
+}
+
+.span_point {
+    position: absolute;
+    top: -5px;
+    width: 11px;
+    height: 11px;
+    content: '';
+    border-radius: 50%;
+    background-color: #919bd3;
+    -webkit-box-shadow: 0 0 0 3px rgba(145, 155, 211, .6);
+    box-shadow: 0 0 0 3px rgba(145, 155, 211);
+}
+
+.gogocar-plan-trip-driver-position--town span {
+    position: absolute !important;
+    top: -30px;
+}
+
+.gogocar-plan-trip-driver-position--time span {
+    position: absolute !important;
+    top: 5px;
+}
+
+.gogocar-plan-trip-driver-position--dot:before {
+    position: -webkit-sticky;
+    /* position: sticky; */
+    width: 0px !important;
+    height: 0px !important;
+    box-shadow: none !important;
+}
+
+.suggest-late--inputs .gogocar-input--wrapper {
+    margin-bottom: 60px;
+}
+
+.trip-stops--list li {
+    display: flex;
+}
+
+.trip-stops--item {
+    margin-bottom: 50px;
+}
+
+.car-to-book--item--top .gogocar-trip--item-town__route {
+    padding: 0px 15px;
+}
+
+.car-to-book--item--top .gogocar-trip--item__town {
+    margin-bottom: 0px;
+}
+
+.alert-danger .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.personal-form-buttons--appeal {
+    margin-top: 50px;
+}
+
+.stop-detail {
+    position: absolute;
+    z-index: 5;
+    bottom: 25px;
+    left: -20px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 20px 16px !important;
+    -webkit-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    transition: all linear .2s;
+    pointer-events: none;
+    /* opacity: 0; */
+    border-radius: 5px;
+    color: #fff;
+    background: #424b5b;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, .3);
+}
+
+.stop-detail:before {
+    position: absolute;
+    z-index: 4;
+    bottom: -20px;
+    left: 14px;
+    width: 20px;
+    height: 20px;
+    content: '';
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-color: #424b5b;
+    -webkit-clip-path: polygon(50% 15%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 15%, 0% 100%, 100% 100%);
+}
+
+.personal-reviews--trip {
+    max-width: 400px;
+}
+
+.gogocar-gray-icons3 {
+    background-color: transparent !important;
+    display: flex;
+    border-radius: 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    -webkit-transition: all linear .2s;
+    -o-transition: all linear .2s;
+    transition: all linear .2s;
+}
+
+.gogocar-gray-icons3 .icon {
+    width: 16px;
+    height: 16px;
+    stroke: #777d87;
+    fill-opacity: 0;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.profile-add-car .trip-select-car-name--number1 {
+    color: #fff;
+}
+
+.profile-add-car .suggest-late--result--item {
+    padding: 10px 10px;
+}
+
+.profile-add-car .trip-select-car {
+    height: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+.brand-select {
+    background: #363D4A;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 12px;
+    width: 100%;
+    height: 42px;
+    color: #fff;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.profile-add-car .trip-select--car--name1 {
+    color: #fff;
+}
+
+.search-block {
+    position: relative;
+}
+
+.search-block .notific-calendar-icon {
+    top: 22px;
+    height: 42px;
+}
+
+.brand-no-result {
+    padding: 15px 20px;
+}
+
+.model-select {
+    margin-bottom: 10px;
+}
+
+.gogocar-select {
+    /* display: none; */
+    /* opacity: 0; */
+}
+
+select {
+    border: 1px solid rgba(255, 255, 255, .1);
+    background-color: #363d4a;
+    height: 47px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0px 20px;
+    font-family: 'Montserrat 400', sans-serif;
+    font-size: 14px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.filter-active .icon {
+    transform: rotate(-90deg);
+}
+
+.personal-people--list2 {
+    padding: 0px;
+}
+
+.delete-stop-new {
+    margin-left: 20px;
+}
+
+.chat-content--route {
+    font-family: 'Oswald 500', sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, .8);
+}
+.header-mobile-menu{
+    padding-bottom: 60px;
+}
+/* Media query */
+@media screen and (min-width: 992px) {
+    .chat-container-main {
+        height: 485px;
+    }
+    section {
+        position: relative;
+        padding: 40px 0;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .blog-main--link {
+        margin-right: 30px !important;
+    }
+
+    .main-section-search--submit {
+        width: 55px;
+        height: 55px;
+    }
+
+    .trip-stops--item {
+        margin-left: 65px;
+    }
+
+    #mobile-main-page-search {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .chat-content--info__driver--review--wrap {
+        overflow-y: scroll;
+    }
+
+    .span_point {
+        position: absolute;
+        top: -1px;
+    }
+
+    .actrl_m {
+        margin-right: 50px !important;
+    }
+
+    .actrl_m:after {
+        width: 100px;
+    }
+
+    .action-buttons {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .blog-main-dots--wrap3 li.slick-active, .blog-main-dots--wrap4 li.slick-active {
+        width: 10px;
+        height: 10px;
+        background-color: #fdab3e;
+    }
+    .blog-main-dots--wrap3,  .blog-main-dots--wrap4{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .blog-main-dots--wrap3 li, .blog-main-dots--wrap4 li {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin-right: 10px;
+        -webkit-transition: all linear .2s;
+        -o-transition: all linear .2s;
+        transition: all linear .2s;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,.23);
+    }
+    .when-trip-date--option {
+        width: 100%;
+        height: 100px;
+        overflow-y: scroll;
+    }
+    .bookings .car-to-book--item--top2 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .you-trip-detail--buttons2 a {
+        width: 100%;
+    }
+
+    .bookings .gogocar-drivers--profile {
+        display: block;
+    }
+
+    .change-trip-go-back--buttons div {
+        font-size: 12px;
+    }
+
+    .you-trip-chat-content {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: auto;
+        position: relative;
+    }
+
+    .type-trip .change-trip-people-and-time {
+        flex-direction: column;
+    }
+
+    .type-trip .when-trip-date {
+        margin-top: 30px;
+    }
+
+    .account-control--top--right--line__mobile--list {
+        margin-left: 0px;
+        width: 90%;
+    }
+
+    #main-page-search {
+        display: none;
+    }
+
+    #mobile-main-page-search .main-section-search--peoples__count--wrap {
+        top: 68px;
+        left: 0;
+        width: 100%;
+        bottom: unset;
+    }
+
+    .popup-desc {
+        width: 100%;
+    }
+
+    .personal-people--list .you-trip-chat-content {
+        min-height: unset;
+        max-height: calc(100vh - 370px);
+        height: calc(100% - 50px);
+        padding-bottom: 60px;
+    }
+
+    .gogocar-trip--item__top .gogocar-trip--item__top {
+        display: none;
+    }
+
+    .when-trip .trip-show-calendar .gogocar-calendar-next,
+    .when-trip .gogocar-calendar-prev {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .trip-choise-car .gogocar-yellow-button {
+        margin-bottom: 30px;
+    }
+
+    .gogocar-you-trip--wrap {
+        margin-bottom: 20px;
+    }
+
+    .trip-stops--list>li {
+        flex-direction: column;
+    }
+
+    .driver .car-to-book--item--top {
+        /* flex-direction: column; */
+    }
+
+    .car-to-book--item--bottom {
+        /* flex-direction: column; */
+    }
+
+    .companion .gogocar-trip--item__top .car-to-book--item--top {
+        flex-direction: column;
+    }
+
+    .header-profile--login,
+    .header-profile--reg {
+        display: block;
+    }
+
+    .blog-main .tab-content>.tab-pane {
+        display: block !important;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .blog-main .tab-content>.active {
+        display: block !important;
+        height: auto;
+    }
+
+    .blog-main-dots--wrap2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .blog-main-dots--wrap2 li,
+    .how-dots--wrap li,
+    .why-dots--wrap li {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin-right: 10px;
+        -webkit-transition: all linear .2s;
+        -o-transition: all linear .2s;
+        transition: all linear .2s;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, .23);
+    }
+
+    .blog-main-dots--wrap2 li.slick-active,
+    .how-dots--wrap li.slick-active,
+    .why-dots--wrap li.slick-active {
+        width: 10px;
+        height: 10px;
+        background-color: #fdab3e;
+    }
+
+    .go-read-all-articles {
+        margin-top: 30px;
+    }
+
+    .header-profile .header-profile--reg {
+        display: none;
+    }
+
+    .you-trip-delete-and-change .gogocar-gray-icons {
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .blog-main--link {
+        width: 80px;
+        margin-right: 15px !important;
+    }
+
+    .account-control--top--right--line__mobile_i:first-child .actrl_m:after {
+        left: -25px;
+        width: 100px;
+    }
+
+    .account-control--top--right--line__mobile--list {
+        margin-left: 20px;
+    }
+
+    .chat-container-main {
+        height: calc(100% - 170px);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    /* .actrl_m:after {
+            width: 50px;
+        } */
+
+}

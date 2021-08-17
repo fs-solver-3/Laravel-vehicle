@@ -1,0 +1,50 @@
+[
+    {
+        "model-name": "Car",
+        "resource-file": "cars.json"
+    },
+    {
+        "model-name": "Complains",
+        "resource-file": "complains.json"
+    },
+    {
+        "model-name": "Truck",
+        "resource-file": "trucks.json"
+    },
+    {
+        "model-name": "Reviews",
+        "resource-file": "reviews.json"
+    },
+    {
+        "model-name": "Passport",
+        "resource-file": "passports.json"
+    },
+    {
+        "model-name": "Driver_Lisence",
+        "resource-file": "driver__lisences.json"
+    },
+    {
+        "model-name": "SeoAll",
+        "resource-file": "seo_alls.json"
+    },
+    {
+        "model-name": "SeoArea",
+        "resource-file": "seo_areas.json"
+    },
+    {
+        "model-name": "Pages",
+        "resource-file": "pages.json"
+    },
+    {
+        "model-name": "CarBrand",
+        "resource-file": "car_brands.json"
+    },
+    {
+        "model-name": "Colors",
+        "resource-file": "colors.json"
+    },
+    {
+        "model-name": "Reason",
+        "resource-file": "reasons.json"
+    }
+]
